@@ -1,0 +1,15 @@
+name: 'SQFvm'
+description: 'Run SQFVM tool'
+author: 'SQFvm'
+branding:
+  icon: 'server'  
+  color: 'green'
+inputs: 
+  command:
+    required: true
+    description: 'Arguments to SQFVM executable'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
