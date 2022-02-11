@@ -1,1 +1,1 @@
-FROM ghcr.io/sqfvm/sqfvm:latest
+FROM ghcr.io/darkwanderer/sqfvm:latest
